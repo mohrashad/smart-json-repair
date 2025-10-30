@@ -1,0 +1,30 @@
+{
+  "name": "smart-json-repair",
+  "version": "1.0.0",
+  "description": "A smart tool to repair malformed JSON strings, making them valid and parseable.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "bin": {
+    "smart-json-repair": "build/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/cli.js",
+    "dev": "ts-node src/cli.ts"
+  },
+  "keywords": ["json", "repair", "fix", "malformed", "cli"],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "build/**/*",
+    "README.md"
+  ]
+}

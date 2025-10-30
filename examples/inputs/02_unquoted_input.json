@@ -1,0 +1,4 @@
+[
+  { id: 3, name: John, city: Cairo, married: Yes },
+  { id: 4, name: "Laila", age: thirty }
+]

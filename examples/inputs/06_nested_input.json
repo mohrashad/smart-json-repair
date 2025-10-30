@@ -1,0 +1,4 @@
+[
+  { "id": 12, "nested": { "a": 1, "b": { "c": 2, "d": { "e": 3 } } },
+  { "id": 13, "nested": { level1: { level2: { value: 42 } } } }
+]

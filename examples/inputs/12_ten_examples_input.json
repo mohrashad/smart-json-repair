@@ -1,0 +1,13 @@
+[
+  { id: 501, name: "Alice", profile: { bio: "Loves AI\nand ML", social: { twitter: @alice, github: "alice" } }, skills: ["Python" "TensorFlow", "PyTorch"], active: Yes },
+  { id: 502, name: "Bob", age: thirty, city: "Paris", hobbies: [reading,, swimming, painting], married: No },
+  { id: 503, name: 'Charlie', bio: "Loves emojis \uD83D\uDE80 and quotes "oops", age: 28 },
+  { id: 504, name: Dana, city: "Rome" extra: "forgot colon", married: TRUE },
+  { id: 505, name: Eva, data: [1 2, 3,,4], notes: "Line breaks\nare fun" },
+  { id: 506, name: "Fiona", numbers: [1,2,3,,4,,5], active: None },
+  { id: 507, name: "George", tags: ["fun",, "exciting", "new"], hobbies: [reading, "writing" coding] },
+  { id: 508, name: "Hannah", profile: { social: { twitter: nil, github: undefined }, bio: "Coder \n & Dev" }, },
+  { id: 509, name: "Ian", bio: "Escapes: \t \r \n \q", city: "Madrid", // comment
+    hobbies: ["soccer" "basketball", "chess",], },
+  { id: 510, name: "Julia", age: 25, profile: { languages: ["English" "Spanish", "French"] }
+]

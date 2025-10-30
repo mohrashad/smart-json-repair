@@ -1,0 +1,6 @@
+[
+  { id: 101, name: John Doe, age: 30, married: True, skills: ["JS", "Node.js" "React"], },
+  { "id": 102, "name": "Alice", "age": twenty five, "city": "London" "extra": "oops" },
+  { id: 103, name: Bob, hobbies: [reading, cycling,, swimming], active: yes },
+  { id: 104, name: "Charlie", bio: "Loves \"quotes\" and newlines\n", score: 95,, }
+]

@@ -1,0 +1,4 @@
+[
+  { id: 401, name: "Liam", profile: { bio: "Loves coding\nand coffee", social: { twitter: @liam_dev, github: "liam" } }, skills: ["JS" "Node.js" "React"], active: Yes },
+  { id: 402, name: "Mia", age: twenty one, city: "Berlin", hobbies: [reading, painting,, coding], married: No }
+]
