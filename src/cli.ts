@@ -21,19 +21,19 @@ async function main() {
   if (args.includes("--version") || args.includes("-v")) {
     const pkgPath = path.resolve(__dirname, "../package.json");
     const pkg = JSON.parse(fs.readFileSync(pkgPath, "utf8"));
-    console.log(`smart-json-repair v${pkg.version}`);
+    console.log(`json-smart-repair v${pkg.version}`);
     process.exit(0);
   }
 
   // Handle help flag
   if (args.includes("--help") || args.includes("-h") || !inputArg) {
     console.log(`
-Smart JSON Repair 🧩
+JSON Smart Repair 🧩
 ---------------------
 Usage:
-  smart-json-repair <input-file> [options]
-  cat broken.json | smart-json-repair > fixed.json
-  echo '{ id: 1, name: "John" age: 30 }' | smart-json-repair
+  json-smart-repair <input-file> [options]
+  cat broken.json | json-smart-repair > fixed.json
+  echo '{ id: 1, name: "John" age: 30 }' | json-smart-repair
 
 Options:
   -o, --output <file>     Write output to file instead of stdout

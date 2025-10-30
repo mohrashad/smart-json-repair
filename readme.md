@@ -23,13 +23,14 @@
 ### Global Installation (CLI)
 
 ```bash
-npm install -g smart-json-repair
+npm install -g json-smart-repair
 ```
 
 ### Local Installation (Library)
 
 ```bash
-npm install smart-json-repair
+npm install json-smart-repair
+
 ```
 
 ## 🚀 Usage
@@ -59,7 +60,7 @@ cat broken.json | json-repair > fixed.json
 #### JavaScript/Node.js
 
 ```javascript
-const { repairJson } = require('smart-json-repair');
+const { repairJson } = require('json-smart-repair');
 
 const brokenJson = `{
   id: 1,
@@ -76,7 +77,7 @@ console.log(fixedJson);
 #### TypeScript
 
 ```typescript
-import { repairJson } from 'smart-json-repair';
+import { repairJson } from 'json-smart-repair';
 
 const brokenJson = `{ id: 1, name: 'Alice', city: Cairo }`;
 const fixedJson = repairJson(brokenJson);
@@ -253,7 +254,7 @@ Repairs broken JSON and returns a valid JSON string.
 
 **Example:**
 ```typescript
-import { repairJson } from 'smart-json-repair';
+import { repairJson } from 'json-smart-repair';
 
 const fixed = repairJson('{ name: John, age: 30 }');
 // Returns: '{\n  "name": "John",\n  "age": 30\n}'

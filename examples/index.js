@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { repairJson } from 'smart-json-repair';
+import { repairJson } from 'json-smart-repair';
 
 const jsonFiles = [
     '01_missing_commas_input.json',
