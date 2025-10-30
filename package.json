@@ -13,7 +13,8 @@
     "dev": "ts-node src/cli.ts"
   },
   "keywords": ["json", "repair", "fix", "malformed", "cli"],
-  "author": "Your Name <your.email@example.com>",
+  "author": "Mohamed Rashad <mohamedrashad5676@gmail.com>",
+  "repository.url": "https://github.com/mohrashad/smart-json-repair",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.14.9",
