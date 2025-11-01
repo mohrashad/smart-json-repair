@@ -1,6 +1,6 @@
 {
   "name": "json-smart-repair",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A smart tool to repair malformed JSON strings, making them valid and parseable.",
   "main": "./build/repair-engine.js",
   "types": "./build/repair-engine.d.ts",
