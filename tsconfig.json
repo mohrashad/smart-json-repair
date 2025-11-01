@@ -133,8 +133,6 @@
   "include": [
     "types/**/*.d.ts",
     "src/**/*",
-    "src/api/scheduledSession/.controller.ts",
-    "src/common/helpers/info.json"
   ],
   "exclude": [
     "node_modules"
