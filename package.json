@@ -1,13 +1,13 @@
 {
   "name": "json-smart-repair",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A smart tool to repair malformed JSON strings, making them valid and parseable.",
   "main": "./build/repair-engine.js",
   "types": "./build/repair-engine.d.ts",
   "bin": {
     "json-smart-repair": "build/cli.js"
   },
-   "files": [
+  "files": [
     "build/**/*",
     "README.md",
     "LICENSE"
@@ -32,7 +32,7 @@
     "typescript"
   ],
   "author": "Mohamed Rashad <mohamedrashad5676@gmail.com>",
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/morashad/smart-json-repair.git"
   },
