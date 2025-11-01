@@ -196,7 +196,7 @@ function repairJsonText(input: string): string {
   }
 }
 
-export function repairJson(text: string): string {
+export default function repairJson(text: string): string {
   const t = text.trim();
   if (!t) return "null";
   

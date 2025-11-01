@@ -17,6 +17,13 @@
     "start": "node build/cli.js",
     "dev": "ts-node src/cli.ts"
   },
+  "exports": {
+    ".": {
+      "require": "./build/repair-engine.js",
+      "import": "./build/repair-engine.js",
+      "types": "./build/repair-engine.d.ts"
+    }
+  },
   "keywords": [
     "json",
     "repair",
